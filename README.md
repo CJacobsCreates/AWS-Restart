@@ -13,7 +13,17 @@
 
 This repo collects my hands-on work from **AWS re/Start**, a full-time, job-focused cloud program run with AWS. The course is built around **60+ graded labs in live AWS lab accounts**, using the AWS Management Console, the AWS CLI, Linux over SSH, and CloudFormation. I designed VPCs, put web tiers behind load balancers with Auto Scaling, moved an application database onto Amazon RDS, deployed infrastructure as code, and set up monitoring and alerts.
 
-Each featured lab below says what was built, how the pieces fit together, and what I would do differently in production.
+My featured project and each featured lab below say what was built, how the pieces fit together, and what I would do differently in production.
+
+---
+
+## Featured Project: Salt & Pepper Restaurant Site
+
+[![Salt & Pepper](Projects/images/01-home-hero.jpg)](Projects/Salt-and-Pepper-Restaurant-Site.md)
+
+A booking and online-ordering site for a rooftop restaurant, built for my AWS re/Start project. Every booking and order becomes a numbered ticket, which ends double bookings and lost paper orders. The site is designed to run serverless on AWS: **S3** hosting, **API Gateway** and **Lambda** for submissions, **DynamoDB** for tickets, and **Cognito** for customer accounts.
+
+**[View the live site](https://awssaltpepper.netlify.app/)** · **[Read the project write-up](Projects/Salt-and-Pepper-Restaurant-Site.md)**
 
 ---
 
@@ -56,6 +66,8 @@ Each featured lab below says what was built, how the pieces fit together, and wh
 ![Systems Manager](https://img.shields.io/badge/AWS%20Systems%20Manager-E7157B?style=flat-square)
 ![IAM](https://img.shields.io/badge/AWS%20IAM-DD344C?style=flat-square)
 ![Amazon SNS](https://img.shields.io/badge/Amazon%20SNS-E7157B?style=flat-square)
+![Amazon Cognito](https://img.shields.io/badge/Amazon%20Cognito-DD344C?style=flat-square)
+![API Gateway](https://img.shields.io/badge/Amazon%20API%20Gateway-FF4F8B?style=flat-square)
 
 **Tools**  
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -105,6 +117,7 @@ Each featured lab below says what was built, how the pieces fit together, and wh
 ```
 AWS-Restart/
 ├── README.md                     # You are here
+├── Projects/                     # Salt & Pepper restaurant site (re/Start project)
 ├── Labs/
 │   ├── Compute/                  # EC2 fundamentals
 │   ├── Networking/               # VPC design and troubleshooting
