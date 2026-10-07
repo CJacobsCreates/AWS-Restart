@@ -17,13 +17,21 @@ My featured project and each featured lab below say what was built, how the piec
 
 ---
 
-## Featured Project: Salt & Pepper Restaurant Site
+## Featured Projects
+
+### Salt & Pepper Restaurant Site
 
 [![Salt & Pepper](Projects/images/01-home-hero.jpg)](Projects/Salt-and-Pepper-Restaurant-Site.md)
 
 A booking and online-ordering site for a rooftop restaurant, built for my AWS re/Start project. Every booking and order becomes a numbered ticket, which ends double bookings and lost paper orders. The site is designed to run serverless on AWS: **S3** hosting, **API Gateway** and **Lambda** for submissions, **DynamoDB** for tickets, and **Cognito** for customer accounts.
 
 **[View the live site](https://awssaltpepper.netlify.app/)** · **[Read the project write-up](Projects/Salt-and-Pepper-Restaurant-Site.md)**
+
+### Live Social Audio Platform (Backend Contributor)
+
+**428 commits** to a production platform with live audio rooms, messaging and paid tiers, in a codebase with **800+ merged pull requests**. I built passkey (WebAuthn) sign-in, security fixes, private audio rooms with host approval, adaptive audio bitrate, group DMs, stories privacy and Stripe subscription tiers, on PHP, MySQL, LiveKit (WebRTC) and Stripe.
+
+**[Read the write-up](Projects/Live-Social-Audio-Platform.md)**
 
 ---
 
@@ -117,7 +125,7 @@ A booking and online-ordering site for a rooftop restaurant, built for my AWS re
 ```
 AWS-Restart/
 ├── README.md                     # You are here
-├── Projects/                     # Salt & Pepper restaurant site (re/Start project)
+├── Projects/                     # Salt & Pepper site + live audio platform write-up
 ├── Labs/
 │   ├── Compute/                  # EC2 fundamentals
 │   ├── Networking/               # VPC design and troubleshooting
