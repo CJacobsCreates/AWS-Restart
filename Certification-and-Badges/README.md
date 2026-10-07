@@ -1,6 +1,6 @@
 # Certification and Badges
 
-Progress toward AWS certification and the badges earned during **AWS re/Start**. Completed courses link to their official AWS Training & Certification certificates. Everything else is marked **In progress** until it's issued.
+Progress toward AWS certification and the badges earned during **AWS re/Start** (graduated October 2026). Completed courses link to their official AWS Training & Certification certificates. Everything else is marked **In progress** until it's issued.
 
 ---
 
@@ -37,16 +37,16 @@ AWS SimuLearn courses are hands-on simulations: a customer describes a business 
 </tr>
 </table>
 
+## AWS re/Start
+
+| Item | Status | Notes |
+|---|---|---|
+| AWS re/Start program | **Graduated (October 2026)** | Completed the full-time program: 60+ graded hands-on labs across Linux, networking, Python, databases, security, and core AWS services |
+
 ## In Progress
 
 | Item | Status | Notes |
 |---|---|---|
-| AWS re/Start program | **In progress** | 60+ graded hands-on labs across Linux, networking, Python, databases, security, and core AWS services |
-| AWS SimuLearn: Databases | **In progress** | Scenario-based simulation for designing a database solution on AWS |
-| AWS SimuLearn: Security | **In progress** | Scenario-based simulation for securing workloads on AWS |
-
----|---|---|
-| AWS re/Start program | **In progress** | 60+ graded hands-on labs across Linux, networking, Python, databases, security, and core AWS services |
 | AWS SimuLearn: Databases | **In progress** | Scenario-based simulation for designing a database solution on AWS |
 | AWS SimuLearn: Security | **In progress** | Scenario-based simulation for securing workloads on AWS |
 
