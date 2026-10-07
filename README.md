@@ -6,6 +6,7 @@
 ![AWS re/Start](https://img.shields.io/badge/AWS%20re%2FStart-in%20progress-FF9900?style=flat-square)
 ![CLF-C02](https://img.shields.io/badge/CLF--C02-studying-232F3E?style=flat-square)
 ![Labs](https://img.shields.io/badge/graded%20labs-60%2B%20completed-success?style=flat-square)
+![AWS certificates](https://img.shields.io/badge/AWS%20training%20certificates-5%20earned-FF9900?style=flat-square)
 
 ---
 
@@ -133,7 +134,7 @@ AWS-Restart/
 │   ├── Databases/                # Amazon RDS migration
 │   ├── Automation/               # CloudFormation
 │   └── Monitoring/               # CloudWatch, SNS
-└── Certification-and-Badges/     # Certification progress and badges
+└── Certification-and-Badges/     # AWS certificates (PDF) and certification progress
 ```
 
 Every featured lab page includes real console screenshots from my lab runs. They come from temporary AWS re/Start lab accounts, with account IDs, ARNs, IP addresses and passwords blacked out or cropped.
@@ -142,10 +143,16 @@ Every featured lab page includes real console screenshots from my lab runs. They
 
 ## Certification and Badges
 
-Certification progress is tracked in [Certification-and-Badges](Certification-and-Badges/README.md).
+Certificates and progress are in [Certification-and-Badges](Certification-and-Badges/README.md).
 
-- **AWS Certified Cloud Practitioner (CLF-C02):** in preparation
-- **AWS SimuLearn:** Database and Security modules (in progress)
+**5 AWS Training & Certification completion certificates** (June 2026):
+- AWS SimuLearn: Highly Available Web Applications
+- AWS SimuLearn: Cloud Computing Essentials
+- AWS SimuLearn: Cloud Economics
+- AWS SimuLearn: Cloud First Steps
+- Job Roles in the Cloud
+
+**In progress:** AWS Certified Cloud Practitioner (CLF-C02) and the AWS SimuLearn Databases and Security modules
 
 ---
 
