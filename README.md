@@ -1,20 +1,17 @@
+<cursor_untrusted_data_1337 source="CallDynamicTool">
+
 # Cheslin Jacobs | AWS Cloud Portfolio (AWS re/Start)
 
 **GitHub:** [@CJacobsCreates](https://github.com/CJacobsCreates)  
-**Education:** AWS re/Start graduate (October 2026) · Diploma in Software Development, Boston City Campus (year 2, in progress)  
+**Education:** AWS re/Start learner (in progress) · Diploma in Software Development, Boston City Campus (year 2, in progress)  
 **Target role:** Cloud Support Associate / Junior Cloud Engineer, working toward **AWS Certified Cloud Practitioner (CLF-C02)**
 
-![AWS re/Start](https://img.shields.io/badge/AWS%20re%2FStart-graduate%20%28Oct%202026%29-FF9900?style=flat-square)
-![Diploma](https://img.shields.io/badge/Software%20Development%20Diploma-year%202-blue?style=flat-square)
-![CLF-C02](https://img.shields.io/badge/CLF--C02-studying-232F3E?style=flat-square)
-![Labs](https://img.shields.io/badge/graded%20labs-60%2B%20completed-success?style=flat-square)
-![AWS certificates](https://img.shields.io/badge/AWS%20training%20certificates-5%20earned-FF9900?style=flat-square)
 
 ---
 
 ## About
 
-This repo collects my hands-on work from **AWS re/Start**, a full-time, job-focused cloud program run with AWS, which I **graduated from in October 2026**. The course is built around **60+ graded labs in live AWS lab accounts**, using the AWS Management Console, the AWS CLI, Linux over SSH, and CloudFormation. I designed VPCs, put web tiers behind load balancers with Auto Scaling, moved an application database onto Amazon RDS, deployed infrastructure as code, and set up monitoring and alerts.
+This repo collects my hands-on work from **AWS re/Start**, a full-time, job-focused cloud program run with AWS, where I'm **currently a learner**. The course is built around **60+ graded labs in live AWS lab accounts**, using the AWS Management Console, the AWS CLI, Linux over SSH, and CloudFormation. I designed VPCs, put web tiers behind load balancers with Auto Scaling, moved an application database onto Amazon RDS, deployed infrastructure as code, and set up monitoring and alerts.
 
 My featured project and each featured lab below say what was built, how the pieces fit together, and what I would do differently in production.
 
@@ -32,7 +29,7 @@ A booking and online-ordering site for a rooftop restaurant, built for my AWS re
 
 ### Live Social Audio Platform (Backend Contributor)
 
-**428 commits** to a production platform with live audio rooms, messaging and paid tiers, in a codebase with **800+ merged pull requests**. I built passkey (WebAuthn) sign-in, security fixes, private audio rooms with host approval, adaptive audio bitrate, group DMs, stories privacy and Stripe subscription tiers, on PHP, MySQL, LiveKit (WebRTC) and Stripe.
+**428 commits** to a production platform with live audio rooms, messaging and paid tiers, in a codebase with **800+ merged pull requests**. I built passkey (WebAuthn) sign-in, security fixes, private audio rooms with host approval, adaptive audio bitrate, group DMs, stories privacy, Stripe subscription tiers and a PayPal integration, on PHP, MySQL, LiveKit (WebRTC), Stripe and PayPal.
 
 **[Read the write-up](Projects/Live-Social-Audio-Platform.md)**
 
@@ -154,7 +151,7 @@ Certificates and progress are in [Certification-and-Badges](Certification-and-Ba
 - AWS SimuLearn: Cloud First Steps
 - Job Roles in the Cloud
 
-**Graduated:** AWS re/Start (October 2026)
+**In progress:** AWS re/Start
 
 **In progress:** AWS Certified Cloud Practitioner (CLF-C02) and the AWS SimuLearn Databases and Security modules
 
@@ -162,4 +159,9 @@ Certificates and progress are in [Certification-and-Badges](Certification-and-Ba
 
 ## Let's Connect
 
-I'm looking for entry-level cloud roles where I can support customers and keep building on AWS. If you're hiring, I'd be glad to talk through any of these labs.
+I'm looking for cloud and web roles where I can support customers and keep building on AWS. If you're hiring, I'd be glad to talk through any of these labs.
+
+[thejacobsconsultancy.com](https://thejacobsconsultancy.com) · [info@thejacobsconsultancy.com](mailto:info@thejacobsconsultancy.com)
+
+
+</cursor_untrusted_data_1337>

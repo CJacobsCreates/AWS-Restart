@@ -1,3 +1,5 @@
+<cursor_untrusted_data_1337 source="CallDynamicTool">
+
 # Backend Contributor: Live Social Audio Platform
 
 > I'm a backend contributor on a live, production social platform with live audio rooms, direct messages, stories and paid subscription tiers. The product is a private codebase with a small team, so this page describes my work without naming the product or sharing code.
@@ -7,7 +9,7 @@
 ![PRs](https://img.shields.io/badge/codebase-800%2B%20merged%20PRs-blue?style=flat-square)
 ![Period](https://img.shields.io/badge/Jun%E2%80%93Oct%202026-in%20production-FF9900?style=flat-square)
 
-**Stack:** PHP 8 · MySQL / MariaDB (PDO, prepared statements) · LiveKit (WebRTC) · WebAudio · Stripe · Web Push · WebAuthn · GitHub Actions
+**Stack:** PHP 8 · MySQL / MariaDB (PDO, prepared statements) · LiveKit (WebRTC) · WebAudio · Stripe · PayPal · Web Push · WebAuthn · GitHub Actions
 
 ---
 
@@ -30,6 +32,7 @@ flowchart LR
     LK -->|webhooks| P
     LK -->|recordings| OS[(S3-compatible<br/>object storage)]
     P -->|checkout + webhooks| ST[Stripe]
+    P -->|checkout| PP[PayPal]
     P -->|push| WP[Web Push service]
     GH[GitHub Actions] -->|deploy| P
 ```
@@ -56,6 +59,8 @@ flowchart LR
 
 ### Payments
 - **Stripe subscription tiers.** Created Stripe products and prices for a paid tier and wired tier selection into checkout.
+- **PayPal integration.** Added PayPal as a second payment option alongside Stripe.
+- **Shop and store credits.** Built the payments behind the platform's online shop and its store credits.
 
 ---
 
@@ -79,3 +84,6 @@ These are the cloud concepts I use here and their AWS equivalents.
 | Managed MySQL | Amazon RDS for MySQL / MariaDB |
 
 *Code and product details are private. Happy to walk through the architecture and my contributions in an interview.*
+
+
+</cursor_untrusted_data_1337>
