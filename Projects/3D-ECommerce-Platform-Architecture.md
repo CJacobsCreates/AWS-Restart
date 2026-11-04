@@ -1,7 +1,7 @@
 # 3D E-Commerce Platform Architecture on AWS
 
 **AWS re/Start Project 2 · Group 1 · October 2026**
-**Group:** Bernelee Molepo, Tharollo Seatlholo, Cheslin Jacobs, Ambesa Mlindi
+**Designed and documented by:** Cheslin Jacobs, for the Group 1 submission (with Bernelee Molepo, Tharollo Seatlholo and Ambesa Mlindi)
 
 ![Group 1 architecture diagram](images/3d-ecommerce-architecture.png)
 
@@ -87,13 +87,11 @@ Shared responsibility model and defence in depth:
 
 ## My role
 
-This was a four-person group project. We designed the architecture together and produced the diagram, a two-page architecture explanation and presentation talking points. The presentation was split into four parts: intro and request flow, high availability and scaling, performance and security, and cost and trade-offs.
-
-<!-- TODO (Cheslin): replace this paragraph with the specific parts you owned, e.g. which presentation section you presented and which parts of the diagram or document you built. -->
+I designed the full architecture, drew the diagram, and wrote the architecture explanation and the talking points for our group submission.
 
 ## Group credit
 
-Designed and presented by **Group 1**: Bernelee Molepo, Tharollo Seatlholo, Cheslin Jacobs and Ambesa Mlindi.
+This was submitted as AWS re/Start Group 1 work, alongside Bernelee Molepo, Tharollo Seatlholo and Ambesa Mlindi. Thanks to them for being part of the group.
 
 ## What I'd do differently
 

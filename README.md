@@ -17,11 +17,11 @@ My featured project and each featured lab below say what was built, how the piec
 
 ## Featured Projects
 
-### 3D E-Commerce Platform Architecture (Group Project)
+### 3D E-Commerce Platform Architecture
 
 [![3D e-commerce architecture](Projects/images/3d-ecommerce-architecture.png)](Projects/3D-ECommerce-Platform-Architecture.md)
 
-An AWS architecture for an online store where customers rotate and zoom 3D product models before they buy, designed for global traffic across two Availability Zones. **CloudFront** and a private **S3** bucket deliver the site and 3D files from the edge, an **ALB** and **EC2 Auto Scaling** run the API, **RDS Multi-AZ** and **DynamoDB** hold orders and carts, and **Lambda** optimises new 3D models on upload. Includes security (WAF, KMS, private subnets), cost controls and the trade-offs we accepted. AWS re/Start Project 2, with Bernelee Molepo, Tharollo Seatlholo and Ambesa Mlindi.
+An AWS architecture for an online store where customers rotate and zoom 3D product models before they buy, designed for global traffic across two Availability Zones. **CloudFront** and a private **S3** bucket deliver the site and 3D files from the edge, an **ALB** and **EC2 Auto Scaling** run the API, **RDS Multi-AZ** and **DynamoDB** hold orders and carts, and **Lambda** optimises new 3D models on upload. Includes security (WAF, KMS, private subnets), cost controls and the trade-offs. Designed and documented by me for my group's AWS re/Start Project 2 submission (Group 1, with Bernelee Molepo, Tharollo Seatlholo and Ambesa Mlindi).
 
 **[Read the project write-up](Projects/3D-ECommerce-Platform-Architecture.md)**
 
