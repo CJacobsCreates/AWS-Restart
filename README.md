@@ -1,5 +1,3 @@
-<cursor_untrusted_data_1337 source="CallDynamicTool">
-
 # Cheslin Jacobs | AWS Cloud Portfolio (AWS re/Start)
 
 **GitHub:** [@CJacobsCreates](https://github.com/CJacobsCreates)  
@@ -18,6 +16,14 @@ My featured project and each featured lab below say what was built, how the piec
 ---
 
 ## Featured Projects
+
+### 3D E-Commerce Platform Architecture (Group Project)
+
+[![3D e-commerce architecture](Projects/images/3d-ecommerce-architecture.png)](Projects/3D-ECommerce-Platform-Architecture.md)
+
+An AWS architecture for an online store where customers rotate and zoom 3D product models before they buy, designed for global traffic across two Availability Zones. **CloudFront** and a private **S3** bucket deliver the site and 3D files from the edge, an **ALB** and **EC2 Auto Scaling** run the API, **RDS Multi-AZ** and **DynamoDB** hold orders and carts, and **Lambda** optimises new 3D models on upload. Includes security (WAF, KMS, private subnets), cost controls and the trade-offs we accepted. AWS re/Start Project 2, with Bernelee Molepo, Tharollo Seatlholo and Ambesa Mlindi.
+
+**[Read the project write-up](Projects/3D-ECommerce-Platform-Architecture.md)**
 
 ### Salt & Pepper Restaurant Site
 
@@ -125,7 +131,7 @@ A booking and online-ordering site for a rooftop restaurant, built for my AWS re
 ```
 AWS-Restart/
 ├── README.md                     # You are here
-├── Projects/                     # Salt & Pepper site + live audio platform write-up
+├── Projects/                     # Salt & Pepper site, 3D e-commerce architecture, live audio write-up
 ├── Labs/
 │   ├── Compute/                  # EC2 fundamentals
 │   ├── Networking/               # VPC design and troubleshooting
